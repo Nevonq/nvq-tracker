@@ -1,7 +1,9 @@
 Config = {}
 
-Config.Locale = 'en' -- Language | en - english | lt - lithuanian
+-- Language
+Config.Locale = GetConvar("esx:locale", "en") -- Language | en - english | lt - lithuanian
 
+-- Optional dependencies
 Config.UseProgress = false -- If you want to use rprogress script | You need to install it manually https://github.com/Mobius1/rprogress 
 
 -- Blips
