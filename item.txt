@@ -1,0 +1,8 @@
+	['gps_tracker'] = {
+		label = 'GPS Tracker',
+		weight = 50,
+		stack = true,
+		close = false,
+		description = ''
+		
+	},
