@@ -35,7 +35,7 @@ AddEventHandler('nvq-tracker:setMarker', function()
         SetBlipAsShortRange(blip, true)
 
         BeginTextCommandSetBlipName("STRING")
-        AddTextComponentString('<font face=\'Roboto\'>'..TranslateCap('veh')..plate)
+        AddTextComponentString(TranslateCap('veh')..plate)
         EndTextCommandSetBlipName(blip)
 
         ESX.ShowNotification(TranslateCap('suc')..plate)
